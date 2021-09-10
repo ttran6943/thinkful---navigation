@@ -1,0 +1,56 @@
+header {
+  background-color: #0b1c51;
+  justify-content: space-between;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+nav {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  font-family: Montserrat;
+}
+
+li {
+  margin: 0px 20px 15px 20px;
+}
+
+.Header {
+  display: flex;
+  flex-direction: column;
+}
+
+.Title {
+  font-size: 48px;
+}
+
+@media all and (min-width: 800px) {
+  .Title {
+    font-size: 52px;
+  }
+
+  .Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  li {
+    margin-top: 0px;
+    font-size: 24px;
+  }
+  header div nav {
+    display: flex;
+    justify-content: center;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+  }
+}
